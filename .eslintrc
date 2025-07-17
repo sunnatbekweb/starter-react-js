@@ -1,0 +1,11 @@
+settings: {
+  'import/resolver': {
+    alias: {
+      map: [
+        ['@components', './src/components'],
+        ['@utils', './src/utils'],
+      ],
+      extensions: ['.js', '.jsx'],
+    },
+  },
+}
